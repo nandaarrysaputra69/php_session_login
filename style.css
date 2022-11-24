@@ -1,0 +1,113 @@
+*{
+    background-color: rgb(22, 22, 22);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+.box {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.card-login {
+    box-shadow: 0px 0px 31px 13px rgba(0, 236, 236, 0.281);
+    background-color: rgb(22, 22, 22);
+    width: 50%;
+}
+  
+.card-header h1 {
+    font-size: 25px;
+    color: rgb(0, 236, 236);
+    font-weight: bold;
+}
+  
+.card-body h4 {
+    padding-left: 36px;
+    padding-right: 36px;
+    color: rgb(0, 236, 236);
+}
+  
+form.form-login {
+    width: 80%;
+}
+
+label.form-label {
+    color: rgb(0, 236, 236);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+  
+input.form-input {
+    padding: 16px;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 236, 236);
+    color: rgb(0, 236, 236);
+    font-weight: 500;
+}
+  
+button.btn.btn-login {
+    width: 100%;
+    box-shadow: 0px 0px 31px 1px rgba(0, 236, 236, 0.281);
+    background-color: rgb(22, 22, 22);
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 12px;
+    color: rgb(0, 236, 236);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button.btn.btn-login:hover {
+    box-shadow: 0px 0px 31px 7px rgba(0, 236, 236, 0.281);
+}
+  
+form p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(0, 236, 236);
+}
+
+@media (max-width: 430px){
+    .card-login {
+        width: 100%;
+    }
+
+    form.form-login {
+        width: 80%;
+    }
+
+    .card-header h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    input.form-input {
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 12px;
+    }
+
+    label.form-label {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    button.btn.btn-login {
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    form p {
+        font-size: 12px;
+        color: rgb(0, 236, 236);
+    }
+}
